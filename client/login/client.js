@@ -103,7 +103,7 @@ const setup = (csrf) => {
 		return false;
 	});
 	
-	createLoginWindow(csrf);
+	createLoginWindow(crsf);
 };
 
 const getToken = () => {

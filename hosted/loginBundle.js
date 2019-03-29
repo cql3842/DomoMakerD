@@ -119,7 +119,7 @@ var setup = function setup(csrf) {
 		return false;
 	});
 
-	createLoginWindow(csrf);
+	createLoginWindow(crsf);
 };
 
 var getToken = function getToken() {
